@@ -1,0 +1,27 @@
+* {
+  font-family: 'Roboto';
+}
+.filter-headings {
+  color: #ffffff;
+  font-size: 20px;
+}
+.filter-list {
+  list-style: none;
+}
+.filter-label {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.filter-input {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .filter-headings {
+    font-size: 16px;
+  }
+  .filter-label {
+    font-size: 12px;
+  }
+}
