@@ -86,9 +86,11 @@
   .job-type,
   .job-package {
     font-size: 16px;
+    margin: 5px;
   }
   .job-card-heading {
     font-size: 20px;
+    margin: 5px;
   }
   .job-description {
     font-size: 12px;

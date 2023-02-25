@@ -2,7 +2,6 @@
   font-family: 'Roboto';
 }
 .job-detail-bg {
-  list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,8 +156,11 @@
   color: #cbd5e1;
 }
 @media screen and (max-width: 767px) {
+  .job-detail-bg {
+    padding: 5px;
+  }
   .container {
-    width: 100%;
+    width: 95%;
   }
   .job-details-card {
     width: 100%;
@@ -177,10 +179,13 @@
   .job-package,
   .skill {
     font-size: 16px;
+    margin: 5px;
   }
   .job-card-headings,
-  .similar-job-headings .visit {
+  .similar-job-headings,
+  .visit {
     font-size: 20px;
+    margin: 5px;
   }
   .job-description {
     font-size: 16px;
@@ -188,6 +193,7 @@
   .skill-list {
     width: 95%;
     padding: 5px;
+    margin: 3px;
   }
   .skill-item {
     width: 42%;

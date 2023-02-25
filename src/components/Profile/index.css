@@ -28,7 +28,20 @@
 }
 @media screen and (max-width: 767px) {
   .profile-container {
-    width: 290px;
-    height: 250px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+  .profile-img {
+    margin-right: 10px;
+  }
+  .username {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .user-bio {
+    font-size: 16px;
+    margin: 5px;
   }
 }
