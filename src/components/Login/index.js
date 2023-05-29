@@ -5,7 +5,12 @@ import Cookie from 'js-cookie'
 import './index.css'
 
 class Login extends Component {
-  state = {username: 'rahul', password: 'rahul@2021', showErrorMsg: false, errorMsg: ''}
+  state = {
+    username: 'rahul', // Used default login details to access the app
+    password: 'rahul@2021',
+    showErrorMsg: false,
+    errorMsg: '',
+  }
 
   onSubmitSuccess = jwtToken => {
     const {history} = this.props
